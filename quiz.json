@@ -1,29 +1,38 @@
 
 [
   {
-    "id": 1,
+    "id": 0,
     "question_text": "What is the capital of Belgium?",
-    "a": "Vienna",
-    "b": "Berlin",
-    "c": "Brussels",
-    "d": "Prague",
-    "answer": "Brussels"
+    "options":{"a":"Vienna", "b":"Berlin", "c":"Brussels", "d": "Prague"},
+    "answer": "c"
    },
   {
-        "id": 2,
-        "question_text" : "How many times have Liverpool been relegated from the top flight of English football?",
-        "options" :["Four", "Three", "Two", "Five"],
-        "answer" : "Three"
+        "id": 1,
+        "question_text" : "How many times have Liverpool been relegated from the top five of English football?",
+        "options":{"a":"Four", "b":"Three", "c":"Two", "d": "Five"},
+
+        "answer" : "b"
    },
 
    {
-      "id" :  "3",
+      "id" :  "2",
       "question_text" : "Which car manufacturer was the first to win 100 F1 races?",
-      "option1" : "Ferrari",
-      "option2" : "Nissan",
-      "option3" : "Ford",
-      "option4" : "Honda",
-      "answer" : "Ferrari."
+      "options":{"a":"Ferrari", "b":"Ford", "c":"Honda", "d": "Nissan"},
+      "answer" : "a"
+  },
+
+  {
+    "id": "3",
+    "question_text": "What’s the capital of Canada?",
+    "options":{"a":"Toronto", "b":"Winnipeg", "c":"Ottawa", "d": "Montreal"},
+    "answer":"c"
+  },
+  {
+    "id": "4",
+    "question_text":"Which language has the most words (according to dictionary entries)?", 
+    "options":{"a":"Mandarin", "b":"English", "c":"Bangla", "d": "Hindi"},
+    "answer": "b"
   }
+
 
   ]
